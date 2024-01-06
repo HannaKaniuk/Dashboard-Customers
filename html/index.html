@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <nav class="sidebar">
+        <div class="container">
+          <div class="logo">
+            <svg class="icons-content" width="37" height="37">
+              <use href="../images/sprite.svg#icon-7"></use>
+            </svg>
+            <h1>Dashboard <span class="logo-span">v.01</span></h1>
+          </div>
+          <div class="navigation">
+            <ul>
+              <li>
+                <div class="li-container">
+                  <svg class="icons-content-4" width="24" height="24">
+                    <use href="../images/sprite.svg#icon-4"></use>
+                  </svg>
+                  <span>Dashboard</span>
+                </div>
+                <svg class="icons-content-2" width="16" height="16">
+                  <use href="../images/sprite.svg#icon-2"></use>
+                </svg>
+              </li>
+              <li>
+                <div class="li-container">
+                  <svg class="icons-content-1" width="24" height="24">
+                    <use href="../images/sprite.svg#icon-1"></use>
+                  </svg>
+                  <span>Product</span>
+                </div>
+                <svg class="icons-content-2" width="16" height="16">
+                  <use href="../images/sprite.svg#icon-2"></use>
+                </svg>
+              </li>
+              <li>
+                <div class="li-container customers">
+                  <svg class="icons-content-8" width="24" height="24">
+                    <use href="../images/sprite.svg#icon-8"></use>
+                  </svg>
+                  <span class="cstmrs">Customers</span>
+                </div>
+                <svg class="icons-content-2" width="16" height="16">
+                  <use href="../images/sprite.svg#icon-2"></use>
+                </svg>
+              </li>
+              <li>
+                <div class="li-container">
+                  <svg class="icons-content-9" width="24" height="24">
+                    <use href="../images/sprite.svg#icon-9"></use>
+                  </svg>
+                  <span>Income</span>
+                </div>
+                <svg class="icons-content-2" width="16" height="16">
+                  <use href="../images/sprite.svg#icon-2"></use>
+                </svg>
+              </li>
+              <li>
+                <div class="li-container">
+                  <svg class="icons-content-3" width="24" height="24">
+                    <use href="../images/sprite.svg#icon-3"></use>
+                  </svg>
+                  <span>Promote</span>
+                </div>
+                <svg class="icons-content-2" width="16" height="16">
+                  <use href="../images/sprite.svg#icon-2"></use>
+                </svg>
+              </li>
+              <li>
+                <div class="li-container">
+                  <svg class="icons-content-5" width="24" height="24">
+                    <use href="../images/sprite.svg#icon-5"></use>
+                  </svg>
+                  <span>Help</span>
+                </div>
+                <svg class="icons-content-2" width="16" height="16">
+                  <use href="../images/sprite.svg#icon-2"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+          <div class="user-profile">
+            <img class="img" src="../images/evano.jpg" alt="" />
+            <div class="user-details">
+              <p>Evano</p>
+              <p class="post">Project Manager</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="dashboard-content">
+      <div class="dashboard-container">
+        <div class="greeting">
+          <h2>Hello Evano 👋🏼,</h2>
+        </div>
+        <section class="customer-section">
+          <header class="section-header">
+            <div class="all-customers">
+              <h3>All Customers</h3>
+              <p class="active-members">Active Members</p>
+            </div>
+            <div class="search-bar">
+              <form action="">
+                <svg class="icons-content-6" width="24" height="24">
+                  <use href="../images/sprite.svg#icon-6"></use>
+                </svg>
+                <input type="text" placeholder="Search" />
+              </form>
+            </div>
+          </header>
+          <div class="customer-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Customer Name</th>
+                  <th>Company</th>
+                  <th>Phone Number</th>
+                  <th>Email</th>
+                  <th>Country</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Jane Cooper</td>
+                  <td>Microsoft</td>
+                  <td>(225) 555-0118</td>
+                  <td>jane@microsoft.com</td>
+                  <td>United States</td>
+                  <td>
+                    <button type="button" class="active">Active</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Floyd Miles</td>
+                  <td>Yahoo</td>
+                  <td>(205) 555-0100</td>
+                  <td>floyd@yahoo.com</td>
+                  <td>Kiribati</td>
+                  <td>
+                    <button type="button" class="inactive">Inactive</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Ronald Richards</td>
+                  <td>Adobe</td>
+                  <td>(302) 555-0107</td>
+                  <td>ronald@adobe.com</td>
+                  <td>Israel</td>
+                  <td>
+                    <button type="button" class="inactive">Inactive</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Marvin McKinney</td>
+                  <td>Tesla</td>
+                  <td>(252) 555-0126</td>
+                  <td>marvin@tesla.com</td>
+                  <td>Iran</td>
+                  <td>
+                    <button type="button" class="active">Active</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Jerome Bell</td>
+                  <td>Google</td>
+                  <td>(629) 555-0129</td>
+                  <td>jerome@google.com</td>
+                  <td>Réunion</td>
+                  <td><button type="button" class="active">Active</button></td>
+                </tr>
+                <tr>
+                  <td>Kathryn Murphy</td>
+                  <td>Microsoft</td>
+                  <td>(406) 555-0120</td>
+                  <td>kathryn@microsoft.com</td>
+                  <td>Curaçao</td>
+                  <td><button type="button" class="active">Active</button></td>
+                </tr>
+                <tr>
+                  <td>Jacob Jones</td>
+                  <td>Yahoo</td>
+                  <td>(208) 555-0112</td>
+                  <td>jacob@yahoo.com</td>
+                  <td>Brazil</td>
+                  <td><button type="button" class="active">Active</button></td>
+                </tr>
+                <tr>
+                  <td>Kristin Watson</td>
+                  <td>Facebook</td>
+                  <td>(704) 555-0127</td>
+                  <td>kristin@facebook.com</td>
+                  <td>Åland Islands</td>
+                  <td>
+                    <button type="button" class="inactive">Inactive</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <footer class="container-pagination">
+            <div>
+              <p class="paragraf">Showing data 1 to 8 of 256K entries</p>
+            </div>
+            <div class="pagination">
+              <a href="#" class="prev">&lt;</a>
+              <a href="#" class="page page-1">1</a>
+              <a href="#" class="page">2</a>
+              <a href="#" class="page">3</a>
+              <a href="#" class="page">4</a>
+              <a href="#" class="page-0">...</a>
+              <a href="#" class="page">40</a>
+              <a href="#" class="next">&gt;</a>
+            </div>
+          </footer>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
